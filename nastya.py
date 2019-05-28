@@ -25,21 +25,6 @@ def from_string_to_list(x):
     return x
 
 
-def save_to_file_2(event):
-    with open("file2.txt", 'w') as f:
-        f.write(str(event))
-
-
-def save_to_file_3(event):
-    with open("file3.txt", 'w') as f:
-        f.write(str(event))
-
-
-def save_to_file_4(event):
-    with open("file4.txt", 'w') as f:
-        f.write(str(event))
-
-
 def lex(N, K, R, arr):
 
     n = N
